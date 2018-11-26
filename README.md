@@ -3,7 +3,7 @@ A project for activity recognition using deep neural networks
 
 Here, Gestures are recorded using an android application - PhonePi. The dataset is stored in the folder - Training_Data.
 
-### Features are extracted as per the paper https://link.springer.com/chapter/10.1007/978-3-642-02830-4_4 in the file Feature_Extraction.py and stored in the file FeaturesSet.xlsx
+#### Features are extracted as per the paper https://link.springer.com/chapter/10.1007/978-3-642-02830-4_4 in the file Feature_Extraction.py and stored in the file FeaturesSet.xlsx
 
 This file - FeaturesSet.xlsx is re-arranged to get training data in sheet 0 and test data in sheet 1 of arrays.xlsx
 
