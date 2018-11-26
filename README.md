@@ -11,6 +11,6 @@ The algorithm to build, train and predict the gestures using deep-neural network
 
 2 Classes for 2 different gestures "UP" and "DOWN" are created.
 
-### Concept of checkpoints are used for storing the trained weights. The same is being loaded to avoid the training time at the time of prediction.
+#### Concept of checkpoints are used for storing the trained weights. The same is being loaded to avoid the training time at the time of prediction.
 
 10-fold validation approach is used to determine the percentage of correct results - 95%
