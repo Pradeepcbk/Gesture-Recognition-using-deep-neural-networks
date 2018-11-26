@@ -7,7 +7,7 @@ Here, Gestures are recorded using an android application - PhonePi. The dataset 
 
 This file - FeaturesSet.xlsx is re-arranged to get training data in sheet 0 and test data in sheet 1 of arrays.xlsx
 
-## The algorithm to build, train and predict the gestures using deep-neural networks (using Keras on top of Tensorflow) is implemented in DNN.py
+The algorithm to build, train and predict the gestures using deep-neural networks (using Keras on top of Tensorflow) is implemented in DNN.py
 
 2 Classes for 2 different gestures "UP" and "DOWN" are created.
 
