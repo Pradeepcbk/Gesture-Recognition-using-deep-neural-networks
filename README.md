@@ -14,3 +14,5 @@ The algorithm to build, train and predict the gestures using deep-neural network
 #### Concept of checkpoints are used for storing the trained weights. The same is being loaded to avoid the training time at the time of prediction. For more information on this: https://www.tensorflow.org/guide/checkpoints
 
 10-fold validation approach is used to determine the percentage of correct results - 95%
+
+The original project which is modified here is present here: https://www.slideshare.net/PradeepSiddagangaiah/gesture-recognition-usinginertialsensors
