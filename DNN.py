@@ -18,7 +18,7 @@ def create_model():
     model.compile(optimizer = 'adam', loss = 'sparse_categorical_crossentropy',metrics = ['accuracy'])
     return model
 
-workBook = xlrd.open_workbook("FeaturesSet.xlsx")
+workBook = xlrd.open_workbook("arrays.xlsx")
 sheet1 = workBook.sheet_by_index(0)
 sheet2 = workBook.sheet_by_index(1)
 
