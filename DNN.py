@@ -14,7 +14,7 @@ def create_model():
     model = tf.keras.models.Sequential()
     model.add(tf.keras.layers.Dense(135,activation=tf.nn.relu, kernel_initializer = 'random_normal', bias_initializer = 'zeros'))
     model.add(tf.keras.layers.Dense(10,activation=tf.nn.relu, kernel_initializer = 'random_normal', bias_initializer = 'zeros'))
-    model.add(tf.keras.layers.Dense(2,activation=tf.nn.sigmoid, kernel_initializer = 'random_normal', bias_initializer = 'zeros'))
+    model.add(tf.keras.layers.Dense(2,activation=tf.nn.softmax, kernel_initializer = 'random_normal', bias_initializer = 'zeros'))
     model.compile(optimizer = 'adam', loss = 'categorical_crossentropy',metrics = ['accuracy'])
     return model
 
