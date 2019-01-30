@@ -14,8 +14,8 @@ def create_model():
     model = tf.keras.models.Sequential()
     model.add(tf.keras.layers.Dense(135,activation=tf.nn.relu, kernel_initializer = 'random_normal', bias_initializer = 'zeros'))
     model.add(tf.keras.layers.Dense(10,activation=tf.nn.relu, kernel_initializer = 'random_normal', bias_initializer = 'zeros'))
-    model.add(tf.keras.layers.Dense(1,activation=tf.nn.sigmoid, kernel_initializer = 'random_normal', bias_initializer = 'zeros'))
-    model.compile(optimizer = 'adam', loss = 'binary_crossentropy',metrics = ['accuracy'])
+    model.add(tf.keras.layers.Dense(2,activation=tf.nn.sigmoid, kernel_initializer = 'random_normal', bias_initializer = 'zeros'))
+    model.compile(optimizer = 'adam', loss = 'categorical_crossentropy',metrics = ['accuracy'])
     return model
 
 workBook = xlrd.open_workbook("arrays.xlsx")
